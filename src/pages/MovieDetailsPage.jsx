@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { useRef } from "react";
 
-import MovieCard from "../components/MovieCard/MovieCard";
-import MovieInfo from "../components/MovieInfo/MovieInfo";
+import MovieCard from "../components/MovieCard";
+import MovieInfo from "../components/MovieInfo";
 
 const MovieDetailsPage = () => {
   const location = useLocation();
